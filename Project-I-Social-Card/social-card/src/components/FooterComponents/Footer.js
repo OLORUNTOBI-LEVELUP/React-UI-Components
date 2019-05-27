@@ -12,8 +12,8 @@ class Footer extends React.Component {
         return (
             <div className="footer">
             <i class="far fa-comment"></i>
-            <i class="fas fa-retweet" onClick={this.IncrementItem}></i>
-            <i class="far fa-heart"></i>
+            <i class="fas fa-retweet" > 6</i>
+            <i class="far fa-heart"> 8</i>
             <i class="far fa-envelope"></i>
           </div>
         );
