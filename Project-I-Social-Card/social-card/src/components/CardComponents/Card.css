@@ -1,1 +1,28 @@
 /* All styles for your Card Components live here */
+.cardcontainer {
+    width: 550px;
+    margin-left: 60px;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 2%;
+    padding-bottom: 5px;
+
+    
+}
+.image {
+    width:550px;
+    margin-left: 0 auto;
+}
+.paragraph {
+    padding: 10px;
+}
+.paragraph1 {
+    padding-left: 10px;
+    color: grey;
+    padding-bottom: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: black
+}

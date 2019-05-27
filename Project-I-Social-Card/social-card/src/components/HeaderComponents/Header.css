@@ -1,1 +1,24 @@
 /* All styles for your header Components live here */
+.header {
+    display: flex;
+  }
+  .content {
+    display: flex;
+    align-items: baseline;
+  }
+  
+  .img {
+    width: 7vh;
+  
+    padding: 10px;
+  }
+  h5 {
+    padding:10px;
+    
+    
+  }
+  .titlecontent {
+    padding-left: 65px;
+    padding-bottom: 10px;
+  }
+  
