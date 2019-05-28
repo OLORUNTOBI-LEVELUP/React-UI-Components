@@ -1,25 +1,31 @@
 import React from 'react';
 import './App.css';
 import Display from './components/DisplayComponents/CalculatorDisplay'
+import ActionButton from './components/ButtonComponents/ActionButton';
+import NumberButton from './components/ButtonComponents/NumberButton';
 
-const numbers = {
-  zero: 0,
-  one: 1,
-  two: 2,
-  three: 3,
-  four: 4,
-  five: 5,
-  six: 6,
-  seven: 7,
-  eight: 8,
-  nine: 9,
-}
-const App = () => {
-  return (
-    <div className="app">
-      <Display name={numbers} />
-    </div>
-  );
+class App extends React.Component {
+  constructor(props) {
+
+    super(props);
+
+   
+
+  
+
+  render() {
+    return (
+      <div>
+        <div className="app">
+          <Display total={this.state.total} />
+          <div className="keys">
+            <NumberButton press={this.press} />
+            <ActionButton />
+          </div>
+        </div>
+      </div>
+    );
+  }
 };
 
 export default App;

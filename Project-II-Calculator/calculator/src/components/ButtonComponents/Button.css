@@ -1,0 +1,15 @@
+
+/* ACTION COMPONENT */
+
+.action {
+    display: flex;
+    flex-direction: column;
+}
+
+.actionButton {
+    width: 100px;
+    height: 84px;
+    background-color: red;
+    color: white;
+    font-size: 30px;
+}

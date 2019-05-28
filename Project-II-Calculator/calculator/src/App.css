@@ -1,13 +1,9 @@
-* {
-    box-sizing: border-box;
-    margin: 50px;
-    padding: 0;
-  }
-  
-  .app{
-  
-    width: 600px;
-    margin: 0 auto;
-  
-    
-  }
+.app {
+  height: 500px;
+  width: 400px;
+  border: 1px solid lightgrey;
+}
+
+.keys {
+  display: flex;
+}
