@@ -1,23 +1,16 @@
 import React from 'react';
 import '../FooterComponents/Footer.css';
 
-class Footer extends React.Component {
-    constructor(props){
-        super(props);
-        
-    }
-   
-  
-    render(){
+  const Footer = () => {
         return (
             <div className="footer">
-            <i class="far fa-comment"></i>
-            <i class="fas fa-retweet" > 6</i>
-            <i class="far fa-heart"> 8</i>
-            <i class="far fa-envelope"></i>
+            <i className="far fa-comment"></i>
+            <i className="fas fa-retweet" > 6</i>
+            <i className="far fa-heart"> 8</i>
+            <i className="far fa-envelope"></i>
           </div>
         );
-    }
+    
 }
 
   

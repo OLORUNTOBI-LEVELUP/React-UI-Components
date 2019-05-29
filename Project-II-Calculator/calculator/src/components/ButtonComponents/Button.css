@@ -1,0 +1,39 @@
+
+/* ACTION COMPONENT */
+
+.action {
+    display: flex;
+    flex-direction: column;
+}
+
+.actionButton {
+    width: 100px;
+    height: 84px;
+    background-color: red;
+    color: white;
+    font-size: 30px;
+}
+
+
+/* NUMBERS COMPONENT */
+
+.keyPad {
+    width: 300px;
+    height: 418px;
+    border: 1px solid lightgrey;
+}
+
+.clearButton {
+    width: 300px;
+    height: 84px;
+}
+
+.numberButton {
+    width: 100px;
+    height: 83px;
+}
+
+.zeroButton {
+    width: 300px;
+    height: 84px;
+}
